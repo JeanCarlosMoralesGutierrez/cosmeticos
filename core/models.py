@@ -7,9 +7,9 @@ from django_countries.fields import CountryField
 
 
 CATEGORY_CHOICES = (
-    ('S', 'Shirt'),
-    ('SW', 'Sport wear'),
-    ('OW', 'Outwear')
+    ('S', 'Ojos'),
+    ('SW', 'Pestañas'),
+    ('OW', 'Cejas')
 )
 
 LABEL_CHOICES = (
@@ -43,6 +43,7 @@ class Item(models.Model):
     slug = models.SlugField()
     description = models.TextField()
     image = models.ImageField()
+    # additional_information = models.TextField(default="Este producto no posee información adicional", ull=False)
 
     def __str__(self):
         return self.title
