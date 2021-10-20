@@ -1,4 +1,4 @@
-# Cosmeticos
+# Cosméticos
 
 ## Instrucciones de instalación
 
